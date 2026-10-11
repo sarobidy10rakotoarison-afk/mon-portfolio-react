@@ -2,7 +2,10 @@ import Navbar from "./components/navbar";
 import "./App.css";
 import Hero from "./components/hero";
 import Projets from "./components/projets";
+import Experience from "./components/experience";
 import Skills from "./components/skills";
+import Contact from "./components/contact";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -14,8 +17,11 @@ function App() {
       <main>
         <Hero />
         <Projets />
-        <Skills/>
+        <Experience />
+        <Skills />
+        <Contact />
       </main>
+      <Footer />
     </div>
   );
 }

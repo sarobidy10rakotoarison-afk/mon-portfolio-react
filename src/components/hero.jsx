@@ -1,4 +1,5 @@
 import "../App.css";
+import { ArrowRight, Database, Mail, PanelsTopLeft, Server, ShieldCheck } from "lucide-react";
 
 function Hero() {
     return (
@@ -26,14 +27,23 @@ function Hero() {
                 <div className="hero-actions">
                     <a className="button button-primary" href="#projets">
                         Voir mes projets
+                        <ArrowRight className="button-icon" aria-hidden="true" />
                     </a>
                     <a className="button button-secondary" href="#contact">
+                        <Mail className="button-icon button-icon-mail" aria-hidden="true" />
                         Me contacter
                     </a>
                 </div>
+
+                <ul className="hero-stack" aria-label="Technologies et domaines de compétence">
+                    <li><span className="stack-icon" aria-hidden="true"><PanelsTopLeft /></span>Front-end React</li>
+                    <li><span className="stack-icon stack-icon-server" aria-hidden="true"><Server /></span>API Node.js</li>
+                    <li><span className="stack-icon stack-icon-database" aria-hidden="true"><Database /></span>Bases de données</li>
+                    <li><span className="stack-icon" aria-hidden="true"><ShieldCheck /></span>Sécurité</li>
+                </ul>
             </div>
         </section>
     );
 }
 
-export default Hero;
+export default Hero;  
