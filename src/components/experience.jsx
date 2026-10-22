@@ -15,8 +15,8 @@ const experiences = [
   },
   {
     title: 'Assistance technique client',
-    organization: 'Téléperformance',
-    period: 'Déc. 2025 - Juin 2026',
+    organization: 'Téléperformance sur le projet orange',
+    period: 'Déc. 2025 - Octobre 2026',
     Icon: Headphones,
     achievements: [
       'Accompagnement des clients face à un problème',
